@@ -35,10 +35,7 @@ int main(void) {
 		scanf("%d", &numbers[i]);
 	}
 
-	if (isJollyJumber(numbers, n)) {
-		printf("it is a Jolly Jumper");}
-	else {
-		printf("not a Jolly Jumper");}
+	isjolly_jumper(numbers, n)
 	return 0;
 
 }
