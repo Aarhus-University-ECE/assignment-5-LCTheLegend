@@ -35,7 +35,7 @@ int main(void) {
 		scanf("%d", &numbers[i]);
 	}
 
-	isjolly_jumper(numbers, n)
+	isjollyjumper(numbers, n);
 	return 0;
 
 }
