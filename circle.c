@@ -1,6 +1,12 @@
 #include <malloc.h>
 #include "circle.h"
 
+// Circle structure
+typedef struct Circle
+{
+    point p;
+    int r;
+} Circle;
 
 void fiveCircles(circle c[]) {
     for(int i = 1 ; i <= 5 ; i++)
