@@ -5,6 +5,11 @@ typedef struct point {
 } point;
 
 /*add your definition of circle here. You need top call it "circle"*/
+typedef struct Circle
+{
+    point p;
+    int r;
+} Circle;
 
 void fiveCircles(circle c[]);
 int circleIsValid(const circle* c);
